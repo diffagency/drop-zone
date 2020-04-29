@@ -1,0 +1,86 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.bg-cover {
+    min-height: 100vh;
+    background-size: cover !important;
+    background: url('/images/landing.jpg')
+}
+
+.main {
+    position: absolute;
+    top: 63%;
+    right: 10%;
+}
+
+.drop-box {
+    border: 1px solid black;
+    background-color: black;
+    position: absolute;
+    font-size: 18px;
+    padding: 4px 15px 0px;
+    color: white;
+}
+.box1 {
+    top: 31px;
+    right: 67px;
+}
+
+.box2 {
+    top: 84px;
+    right: 48px;
+}
+
+.count-down-box {
+    border: 1px solid black;
+    background-color: black;
+    padding: 0px 6px; 
+    color: white;
+    font-size: 28px;
+    margin-right: 6px;
+}
+
+.count-down-timer {
+    margin: 4% 0;
+}
+.main-text {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { 
+
+ }
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    
+
+ }
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+    .count-down-box {
+        border: 1px solid black;
+        background-color: black;
+        padding: 3px 12px 3px 12px;
+        color: white;
+        font-size: 60px;
+    }
+    .main {
+        position: absolute;
+        top: 50%;
+        right: 10%;
+    }
+    .main-text {
+        font-size: 3rem;
+    }
+
+ }
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+
+}
