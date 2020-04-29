@@ -2,10 +2,63 @@
 <html>
 <head>
   <title>Drop Zone</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
   <!-- Fonts -->
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&family=Rozha+One&display=swap" rel="stylesheet">
+  <!-- Template Main CSS File -->
+  <link href="style.css" rel="stylesheet">
+
 </head>
 <body>
+  <div style="background: url(images/landing.jpg)" class="bg-cover">
+  <div class="container">
+      <div class="drop-box box1"><h3>DROP</h3></div>
+      <div class="drop-box box2"><h3>ZONE</h3></div>
+
+      <div class="main">
+      <div class="row">
+          <div class="col-12 main-text text-center">
+          LEEZY BOOST 103
+        </div>
+      </div>
+      
+      <div class="row justify-content-center count-down-timer">
+        <div class="col-3 text-center">
+          <span class="count-down-box" id="day1">0</span>
+          <span class="count-down-box" id="day2">0</span>
+          <h5><b>DAYS</b></h5>
+        </div>
+        <div class="col-3 text-center">
+          <span class="count-down-box" id="hour1">0</span>
+          <span class="count-down-box" id="hour2">0</span>
+          <h5><b>HOURS</b></h5>
+        </div>
+        <div class="col-3 text-center">
+          <span class="count-down-box" id="min1">0</span>
+          <span class="count-down-box" id="min2">0</span>
+          <h5><b>MINS</b></h5>
+        </div>
+        <div class="col-3 text-center">
+          <span class="count-down-box" id="sec1">0</span>
+          <span class="count-down-box" id="sec2">0</span>
+          <h5><b>SECS</b></h5>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-12 text-center">
+          <h5>UNTIL DROP</h5>
+        </div>
+      </div>
+      </div>
+  </div>
+</div>
+<!-- Js file for coundown timer -->
+<script src="js/main.js"></script>
 </body>
 </html>
