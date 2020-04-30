@@ -15,7 +15,7 @@ export class CountDownTimer extends React.Component {
 
   displayCountDownTimer = () => {
     const interval = setInterval(() => {
-      const countdownDate = moment(new Date("04/30/2020"));
+      const countdownDate = moment(new Date("05/30/2020"));
       const now = moment().format();
       const diffDuration = moment.duration(countdownDate.diff(now));
       const days =
