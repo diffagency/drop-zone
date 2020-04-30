@@ -1,0 +1,6 @@
+// This is the top-level scss file. Import all other files in here.
+@import "home";
+@import "variables";
+
+@import "../src/components/landing-page/landing-page.scss";
+@import "../src/components/landing-page/subModules/countDown-timer/countdown-timer.scss";

@@ -1,0 +1,30 @@
+.c-landing-page {
+  background-image: url("/src/images/landing.jpg");
+  background-size: cover;
+  height: 100vh;
+
+  .c-landing-page--logo-section {
+    position: absolute;
+    right: 10px;
+    top: 30px;
+    color: $white;
+
+    h2 {
+      font-size: 2.5rem;
+      letter-spacing: 8px;
+
+      @media (min-width: 1024px) {
+        font-size: 2rem;
+      }
+
+      &:nth-child(2) {
+        margin: 8px 20px;
+      }
+
+      span {
+        background-color: $black;
+        padding: 0 5px 0 12px;
+      }
+    }
+  }
+}
