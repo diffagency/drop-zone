@@ -1,0 +1,79 @@
+.c-countdown-timer-wrapper {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 100px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.c-countdown-timer--drop-text {
+  font-size: 1rem;
+}
+
+h1 {
+  font-size: 1.4rem;
+}
+
+.c-countdown {
+  display: flex;
+  justify-content: center;
+}
+
+.c-countdown-item {
+  font-size: 1rem;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 10px 2px;
+  height: 100px;
+}
+
+.c-countdown-item h3 {
+  color: #fff;
+}
+
+.c-countdown-item h3 span {
+  background-color: #000;
+  margin: 3px;
+  padding: 3px 5px;
+  display: inline-block;
+  min-width: 20px;
+}
+
+.c-countdown-item p {
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
+/* medium and larger devices css */
+@media (min-width: 1024px) {
+  .c-countdown {
+    margin: 25px 0;
+  }
+
+  .c-countdown-timer-wrapper {
+    left: 30%;
+    top: 50%;
+    margin-top: -100px;
+  }
+
+  .c-countdown-item {
+    font-size: 2.5rem;
+    margin: 10px 5px;
+  }
+
+  .c-countdown-item p {
+    font-size: 1.4rem;
+  }
+
+  h1 {
+    font-size: 3.125rem;
+  }
+
+  .c-countdown-item h3 span {
+    margin: 5px 5px 10px 5px;
+    min-width: 35px;
+    padding: 3px 10px;
+  }
+}
