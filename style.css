@@ -1,0 +1,352 @@
+/*Diff Mock up Countdown CSS, Jordan Waldron, Nov 2021*/
+body {
+  background-image: url("landing.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left;
+  width: 100vw;
+  height: 100vh;
+}
+
+/* upper box top right corner */
+.drop {
+  position: absolute;
+  right: 100px;
+  top: 25px;
+  padding: 10px;
+  height: 35px;
+  width: 100px;
+  color: white;
+  text-align: center;
+  background-color: black;
+  letter-spacing: 4px;
+}
+
+/* lower box top right corner */
+ .zone {
+  position: absolute;
+  right: 75px;
+  top: 90px;
+  padding: 10px;
+  height: 35px;
+  width: 100px;
+  color: white;
+  text-align: center;
+  background-color: black;
+  letter-spacing: 4px;
+}
+
+/* properties of boxes for counter */
+count-down-box {
+  position: absolute;
+  padding: 10px;
+  height: 65px;
+  width: 25px;
+  border: 10px;
+  color: black;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 4px;
+}
+
+/* properties for h2 tag */
+h2 {
+  position: absolute;
+  padding: 10px;
+  height: 35px;
+  width: 550px;
+  border: 10px;
+  color: black;
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 4px;
+  text-align: center;
+}
+
+/* title above counter */
+.title {
+  right: 300px;
+  top: 400px;
+  size: 550px;
+  font-size: 50px;
+}
+
+/* days text below days box */
+h2.days-title {
+  top: 600px;
+  right: 555px;
+  font-size: 20px;
+}
+
+/* hours text below days box */
+h2.hours-title {
+  top: 600px;
+  right: 360px;
+  font-size: 20px;
+}
+
+/* minutes text below days box */
+h2.minutes-title {
+  top: 600px;
+  right: 170px;
+  font-size: 20px; 
+}
+
+/* seconds text below days box */
+h2.seconds-title {
+  top: 600px;
+  right: -10px;
+  font-size: 20px; 
+}
+
+/* until drop text below counter */
+h2.until-drop {
+  top: 650px;
+  right: 260px;
+  font-size: 15px;  
+}
+
+/* boxes where numbers from counter will appear */
+count-down-box {
+  background-color: black;
+  color: white;
+  font-size: 50px;
+  font-family: "Rozha One";
+  padding: 10px 20px;
+  margin: 0 5px;
+}
+
+/* box where days digits from counter will appear */
+count-down-box.days-box1{
+  position: absolute;
+  top: 525px;
+  right: 850px;
+}
+
+/* box where days digits from counter will appear */
+count-down-box.days-box2{
+  position: absolute;
+  top: 525px;
+  right: 765px;
+}
+
+/* box where hours digits from counter will appear */
+count-down-box.hours-box1{
+  position: absolute;
+  top: 525px;
+  right: 660px;
+}
+
+/* box where days digits from counter will appear */
+count-down-box.hours-box2{
+  position: absolute;
+  top: 525px;
+  right: 575px;
+}
+
+/* box where minutes digits from counter will appear */
+count-down-box.minutes-box1{
+  position: absolute;
+  top: 525px;
+  right: 470px;
+}
+
+/* box where minutes digits from counter will appear */
+count-down-box.minutes-box2{
+  position: absolute;
+  top: 525px;
+  right: 385px;
+}
+
+/* box where seconds digits from counter will appear */
+count-down-box.seconds-box1{
+  position: absolute;
+  top: 525px;
+  right: 280px;
+}
+
+/* box where seconds digits from counter will appear */
+count-down-box.seconds-box2{
+  position: absolute;
+  top: 525px;
+  right: 200px;
+}
+
+/* Mobile  Responsiveness  for Iphone 8*/
+
+@media only screen 
+    and (device-width : 375px) 
+    and (device-height : 667px) 
+    and (-webkit-device-pixel-ratio : 2) { 
+      body {
+        background-image: url("landing.jpg");
+        background-repeat: no-repeat;
+        background-position: left;
+        background-size: 385%;
+      }
+
+      /* upper box top right corner for mobile */
+      .drop {
+        position: absolute;
+        right: 100px;
+        top: 50px;
+        padding: 10px;
+        height: 65px;
+        width: 200px;
+        color: white;
+        text-align: center;
+        background-color: black;
+        letter-spacing: 4px;
+        font-size: 55px;
+      }
+
+      /* lower box top right corner for mobile */
+      .zone {
+        position: absolute;
+        right: 50px;
+        top: 160px;
+        padding: 10px;
+        height: 65px;
+        width: 200px;
+        color: white;
+        text-align: center;
+        background-color: black;
+        letter-spacing: 4px;
+        font-size: 55px;
+      }
+
+      /* properties of boxes for counter on mobile*/
+      count-down-box {
+        position: absolute;
+        padding: 10px;
+        height: 65px;
+        width: 25px;
+        border: 10px;
+        color: black;
+        text-align: center;
+        font-family: "Roboto", sans-serif;
+        letter-spacing: 4px;
+      }
+
+      /* properties for h2 tag on mobile*/
+      h2 {
+        position: absolute;
+        padding: 10px;
+        height: 35px;
+        width: 550px;
+        border: 10px;
+        color: black;
+        font-family: "Roboto", sans-serif;
+        letter-spacing: 4px;
+        text-align: center;
+      }
+
+      /* title above counter for mobile */  
+      h2.title {
+        right: 250px;
+        top: 1200px;
+        font-size: 50px;
+      }
+
+      /* title for days below counter for mobile */  
+      h2.days-title {
+        top: 1425px;
+        right: 510px;
+        font-size: 30px;
+      }
+
+      /* title for hours below counter for mobile */  
+      h2.hours-title {
+        top: 1425px;
+        right: 305px;
+        font-size: 30px;
+      }
+
+      /* title for minutes below counter for mobile */  
+      h2.minutes-title {
+        top: 1425px;
+        right: 110px;
+        font-size: 30px;
+      }
+
+      /* title for seconds below counter for mobile */  
+      h2.seconds-title {
+        top: 1425px;
+        right: -110px;
+        font-size: 30px;
+      }
+
+      /* title for Until Drop below counter for mobile */  
+      h2.until-drop {
+      top: 1500px;
+      right: 260px;
+      font-size: 40px;
+      }
+
+      /* box where digits from counter will appear for mobile */
+      count-down-box {
+        background-color: black;
+        color: white;
+        font-size: 60px;
+        height: 80px;
+        width: 30px;
+        font-family: "Rozha One";
+        padding: 10px 20px;
+        margin: 0 5px;
+      }
+
+      /* box where days digits from counter will appear for mobile */
+      count-down-box.days-box1{
+        position: absolute;
+        top: 1325px;
+        right: 800px;
+      }
+
+      /* box where days digits from counter will appear for mobile */
+      count-down-box.days-box2{
+        position: absolute;
+        top: 1325px;
+        right: 715px;
+      }
+
+      /* box where hours digits from counter will appear for mobile */
+      count-down-box.hours-box1{
+        position: absolute;
+        top: 1325px;
+        right: 600px;
+      }
+
+      /* box where hours digits from counter will appear for mobile */
+      count-down-box.hours-box2{
+        position: absolute;
+        top: 1325px;
+        right: 515px;
+      }
+
+      /* box where minutes digits from counter will appear for mobile */
+      count-down-box.minutes-box1{
+        position: absolute;
+        top: 1325px;
+        right: 400px;
+      }
+
+      /* box where minutes digits from counter will appear for mobile */
+      count-down-box.minutes-box2{
+        position: absolute;
+        top: 1325px;
+        right: 315px;
+      }
+
+      /* box where seconds digits from counter will appear for mobile */
+      count-down-box.seconds-box1{
+        position: absolute;
+        top: 1325px;
+        right: 180px;
+      }
+
+      /* box where seconds digits from counter will appear for mobile */
+      count-down-box.seconds-box2{
+        position: absolute;
+        top: 1325px;
+        right: 100px;
+      }
+}

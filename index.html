@@ -1,11 +1,52 @@
+<!-- Diff Mock up Countdown,Jordan Waldron, Nov 2021 -->
 <!DOCTYPE html>
 <html>
 <head>
+  <script src="myscript.js"></script>
   <title>Drop Zone</title>
-
   <!-- Fonts -->
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&family=Rozha+One&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
+  <!-- Text displayed in Top Right Divs  -->
+  <h1 class="drop">DROP</h1>
+  <h1 class="zone">ZONE</h1>
+  
+  <!-- Div for countdown group -->
+  <div class ="countdown-container">
+    <h2 class="title">LEEZY BOOST 103</h2>
+
+    <!-- Div for the boxes displaying number of days remaining -->
+    <div>
+      <count-down-box id="days-num1" class="days-box1"></count-down-box>
+      <count-down-box id="days-num2"class="days-box2"></count-down-box>
+      <h2 class="days-title">DAYS</h2>
+    </div>
+
+    <!-- Div for the boxes displaying number of hours remaining-->
+    <div>
+      <count-down-box id="hours-num1"class="hours-box1"></count-down-box>
+      <count-down-box id="hours-num2"class="hours-box2"></count-down-box>
+      <h2 class="hours-title">HOURS</h2>
+    </div>
+
+    <!-- Div for the boxes displaying number of minutes remaining -->
+    <div>
+      <count-down-box id="mins-num1"class="minutes-box1"></count-down-box>
+      <count-down-box id="mins-num2"class="minutes-box2"></count-down-box>
+      <h2 class="minutes-title">MINS</h2>
+    </div>
+    
+    <!-- Div for the boxes displaying number of seconds remaining -->
+    <div>
+      <count-down-box id="secs-num1"class="seconds-box1"></count-down-box>
+      <count-down-box id="secs-num2"class="seconds-box2"></count-down-box>
+      <h2 class="seconds-title">SECS</h2>
+    </div>
+
+    <h2 class="until-drop">UNTIL DROP</h2>
+  </div>
 </body>
 </html>
+
