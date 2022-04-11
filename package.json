@@ -1,0 +1,20 @@
+{
+  "name": "drop-zone",
+  "version": "1.0.0",
+  "description": "Diff technical interview question.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Azonkeu/drop-zone.git"
+  },
+  "keywords": [],
+  "author": "Azonkeu Ornela",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Azonkeu/drop-zone/issues"
+  },
+  "homepage": "https://github.com/Azonkeu/drop-zone#readme"
+}

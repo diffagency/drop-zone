@@ -1,0 +1,157 @@
+* {
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  background-image: url('./images/landing.jpg');
+  height: 100vh;
+  max-width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.drop {
+  display: flex;
+  align-items: center;
+  margin: 2% 2.8em 0 auto;
+  text-align: center;
+  padding: 0 0.5% 0 0.5%;
+  color: #fff;
+  background-color: black;
+  font-size: 36px;
+  line-height: 40px;
+}
+
+.dro {
+  margin-top: 32px;
+}
+
+.letter {
+  letter-spacing: 0.15em;
+}
+
+.zone {
+  margin: 1% 2em 0 auto;
+}
+
+.count-block {
+  display: flex;
+  width: 90%;
+  flex-direction: column;
+  margin: auto auto 10% auto;
+  justify-content: center;
+  align-items: center;
+}
+
+.boost {
+  font-weight: 600;
+  font-size: 24px;
+  font-weight: 900;
+  font-size: 2.6em;
+  line-height: 40px;
+}
+
+.counting {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  margin: 36px 0 0 0;
+}
+
+.block {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 30%;
+  font-size: 1.4em;
+  padding: 0;
+  margin: 0;
+}
+
+.num {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  margin: 0;
+  padding: 0;
+}
+
+.first {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 23%;
+  background-color: #000;
+  color: #fff;
+  padding: 16px;
+  margin-bottom: 10%;
+  min-height: 3.3rem;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 40px;
+}
+
+.rozha {
+  font-family: 'Rozha One';
+  font-style: normal;
+  font-weight: 400;
+}
+
+.sec {
+  margin-left: 11%;
+}
+
+.until {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 40px;
+  margin-top: 5%;
+}
+
+.name {
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+}
+
+.family {
+  font-family: 'Roboto';
+  font-style: normal;
+}
+
+.transform {
+  text-transform: uppercase;
+}
+
+@media only screen and (min-width:992px) {
+  .count-block {
+    width: 40%;
+    flex-direction: column;
+    margin: 9.5em 9.625em 4% auto;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .boost {
+    font-size: 2.6em;
+  }
+
+  .zone {
+    margin: 0.5% 2em 0 auto;
+  }
+
+  .drop {
+    font-size: 1.3em;
+  }
+
+  .first {
+    width: 15%;
+  }
+}
