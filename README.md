@@ -33,3 +33,4 @@ You can work on this solution in one of two ways: by forking this repository, or
 
 ## Mockups
 https://www.figma.com/file/OGZEMBBrVIM3n2CdBYsdEK/Drop-Zone?node-id=0%3A1# diff-test
+# diff-test
